@@ -1,0 +1,86 @@
+section.skill .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.skill .content .left .heading {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+section.skill .content .left .heading h5 {
+    font-size: 16px;
+    margin-top: 0.5rem;
+    color: var(--mild);
+}
+section.skill .content .left p {
+    font-size: 14px;
+    color: var(--ternary);
+    line-height: 1.7;
+}
+section.skill .content .left p.center {
+    color: var(--secondary);
+}
+section.skill .content .left .item {
+    margin-bottom: 2.6rem;
+    margin-left: 15px;
+    position: relative;
+}
+section.skill .content .left .timeline_wrapper {
+    border-left: 2px dotted var(--fade);
+}
+section.skill .content .left .item::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid var(--secondary);
+    margin-left: -22px;
+    background: var(--secondary);
+}
+
+section.skill .right .skills_wrapper .skill_box h4 {
+    color: var(--ternary);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+section.skill .right .skills_wrapper .skill_box {
+    margin-bottom: 4rem;
+}
+section.skill .right .skills_wrapper .skill_box .progress_wrap {
+    background: #20294a;
+    height: 6px;
+    width: 100%;
+    box-shadow: 0 0 1px 0.25px #4d79f6;
+    border: 2px solid var(--primary);
+    border-radius: 10px;
+}
+section.skill .right .skills_wrapper .skill_box .progress_wrap .progress_bar {
+    display: block;
+    background: var(--info);
+    width: 0;
+    height: 3px;
+    position: relative;
+    transition: width 2s cubic-bezier(0.18, 1.14, 0.69, -0.51);
+}
+section.skill
+    .right
+    .skills_wrapper
+    .skill_box
+    .progress_wrap
+    .progress_bar
+    .tooltip {
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
