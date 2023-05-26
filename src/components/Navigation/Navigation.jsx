@@ -17,8 +17,7 @@ const Navigation = () => {
         setData(_data);
     }, []);
 
-    const closeNavBar = (e) => {
-        e.stopPropagation();
+    const closeNavBar = () => {
         document.querySelector(".navbar").style.left = "-250px";
     };
 
@@ -61,6 +60,7 @@ const Navigation = () => {
                                 ? "bg-white text-black"
                                 : "bg-primary text-fade"
                         }`}
+                        onClick={closeNavBar}
                     >
                         <BiHomeAlt className="text-md" />
                         <span className="text nav-text ml-3 text-sm font-500">
@@ -75,6 +75,7 @@ const Navigation = () => {
                                 ? "bg-white text-black"
                                 : "bg-primary text-fade"
                         }`}
+                        onClick={closeNavBar}
                     >
                         <BiInfoSquare className="text-md" />
                         <span className="text nav-text ml-3 text-sm font-500">
@@ -89,6 +90,7 @@ const Navigation = () => {
                                 ? "bg-white text-black"
                                 : "bg-primary text-fade"
                         }`}
+                        onClick={closeNavBar}
                     >
                         <HiTrendingUp className="text-md" />
                         <span className="text nav-text ml-3 text-sm font-500">
@@ -102,6 +104,7 @@ const Navigation = () => {
                                 ? "bg-white text-black"
                                 : "bg-primary text-fade"
                         }`}
+                        onClick={closeNavBar}
                     >
                         <BiPackage className="text-md" />
                         <span className="text nav-text ml-3 text-sm font-500">
@@ -116,6 +119,7 @@ const Navigation = () => {
                                 ? "bg-white text-black"
                                 : "bg-primary text-fade"
                         }`}
+                        onClick={closeNavBar}
                     >
                         <HiOutlineAcademicCap className="text-md" />
                         <span className="text nav-text ml-3 text-sm font-500">
@@ -129,6 +133,7 @@ const Navigation = () => {
                                 ? "bg-white text-black"
                                 : "bg-primary text-fade"
                         }`}
+                        onClick={closeNavBar}
                     >
                         <BsFileEarmarkPdf className="text-md" />
                         <span className="text nav-text ml-3 text-sm font-500">
@@ -142,6 +147,7 @@ const Navigation = () => {
                                 ? "bg-white text-black"
                                 : "bg-primary text-fade"
                         }`}
+                        onClick={closeNavBar}
                     >
                         <BsChatQuote className="text-md" />
                         <span className="text nav-text ml-3 text-sm font-500">
@@ -155,6 +161,7 @@ const Navigation = () => {
                                 ? "bg-white  text-black"
                                 : "bg-primary text-fade"
                         }`}
+                        onClick={closeNavBar}
                     >
                         <BiDownload className="text-md" />
                         <span className="text nav-text ml-3 text-sm font-500">

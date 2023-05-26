@@ -104,25 +104,25 @@ const Contact = () => {
                     <h1 className="section_heading mt-8">Social Links</h1>
                     <div className="flex items-center justify-between w-full mt-6">
                         <a
-                            href="https://twitter.com/Vaibhav83612404"
+                            href="https://twitter.com/rushi_mungse"
                             target="_blank"
                         >
                             <FaTwitter className="text-blue-600 text-2xl" />
                         </a>
                         <a
-                            href=" http://linkedin.com/in/vaibhav-shelake-79656b240"
+                            href="https://www.linkedin.com/in/rushikesh-mungse/"
                             target="_blank"
                         >
                             <FaLinkedin className="text-blue-500 text-2xl" />
                         </a>
                         <a
-                            href="https://www.youtube.com/channel/UCUgZtY6jwFCCO4jw5z6zStg"
+                            href="https://www.youtube.com/channel/UCE7SXY8uVpl117-vJAbQbzw"
                             target="_blank"
                         >
                             <FaYoutube className="text-red-600 text-2xl" />
                         </a>
                         <a
-                            href="https://www.youtube.com/channel/UCUgZtY6jwFCCO4jw5z6zStg"
+                            href="https://github.com/rushi-mungse"
                             target="_blank"
                         >
                             <FaGithub className="text-pure text-2xl" />
@@ -132,12 +132,6 @@ const Contact = () => {
                         </a>
                         <a href="https://wa.me/7499487810" target="_blank">
                             <FaWhatsapp className="text-green-600 text-2xl" />
-                        </a>
-                        <a
-                            href="https://www.facebook.com/vaibhav.shelake.921?mibextid=ZbWKwL"
-                            target="_blank"
-                        >
-                            <FaFacebook className="text-blue-600 text-2xl" />
                         </a>
                     </div>
                 </div>

@@ -27,27 +27,39 @@ const Certificates = () => {
                             React Js
                         </span>
                         <img src="https://i.ibb.co/6Hx0Bvz/UC-132054ff-a465-4bf0-93c5-585e151d80dd.jpg" />
-                        <button className="text-sm bg-gradient-to-l from-success to-secondary px-2 py-1 mt-2 text-pure">
+                        <a
+                            href="https://drive.google.com/file/d/1M38a1CZ3IvFX6AL6MJ-zffaTDy7Us6t5/view?usp=drive_link"
+                            className="inline-block text-sm bg-gradient-to-l from-success to-secondary px-2 py-1 mt-2 text-pure"
+                            target="_blank"
+                        >
                             View Certificate
-                        </button>
+                        </a>
                     </div>
                     <div className="p-4">
                         <span className="text-fade font-500 inline-block mb-2">
                             Object Oriented Programing
                         </span>
                         <img src="https://i.ibb.co/TYX5FXS/1-08d96b1f-d4bf-45c8-800d-900721b8a294.jpg" />
-                        <button className="text-sm bg-gradient-to-l from-success to-secondary px-2 py-1 mt-2 text-pure">
+                        <a
+                            href="https://drive.google.com/file/d/1UMxjUBANqYwbEr_ynWgRvtR-v5zG-8s3/view?usp=drive_link"
+                            target="_blank"
+                            className="inline-block text-sm bg-gradient-to-l from-success to-secondary px-2 py-1 mt-2 text-pure"
+                        >
                             View Certificate
-                        </button>
+                        </a>
                     </div>
                     <div className="p-4">
                         <span className="text-fade font-500 inline-block mb-2">
                             Cloud Computing
                         </span>
                         <img src="https://i.ibb.co/3YXPwbm/e-Certificate.jpg" />
-                        <button className="text-sm bg-gradient-to-l from-success to-secondary px-2 py-1 mt-2 text-pure">
+                        <a
+                            href="https://drive.google.com/file/d/1DOrxrN0RhCCgPmE4fPANOyGbZFw0Mj7b/view?usp=drive_link"
+                            target="_blank"
+                            className="inline-block text-sm bg-gradient-to-l from-success to-secondary px-2 py-1 mt-2 text-pure"
+                        >
                             View Certificate
-                        </button>
+                        </a>
                     </div>
 
                     <div className="p-4">
@@ -55,9 +67,13 @@ const Certificates = () => {
                             Python
                         </span>
                         <img src="https://i.ibb.co/BNdfc7y/courcera-python-for-everybody.jpg" />
-                        <button className="text-sm bg-gradient-to-l from-success to-secondary px-2 py-1 mt-2 text-pure">
+                        <a
+                            href="https://drive.google.com/file/d/1VAviVkS-R4lkm_Pkkw1tTJD2pisgA54U/view?usp=drive_link"
+                            target="_blank"
+                            className="inline-block text-sm bg-gradient-to-l from-success to-secondary px-2 py-1 mt-2 text-pure"
+                        >
                             View Certificate
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -78,7 +94,7 @@ const Certificates = () => {
                     leftArrow={<Left />}
                     rightArrow={<Right />}
                 >
-                    <div className="px-4 py-4 h-[150px] flex items-center justify-center flex-col bg-gradient-to-l from-success to-secondary ">
+                    <div className="px-4 py-4 h-[150px] flex items-center justify-center flex-col bg-gradient-to-l  from-dribbble to-twitter ">
                         <h1 className="text-dark tracking-wide font-500">
                             {" "}
                             LeetCode{" "}
@@ -86,21 +102,21 @@ const Certificates = () => {
                         <p className="text-secondary">Contest Rating : 1850+</p>
                         <p className="text-secondary">Solved Problems : 600+</p>
                         <a
-                            href="https://drive.google.com/file/d/1HLzyqg3H410w9xbr27RWW1SQ6rMWjrS6/view?usp=drivesdk"
+                            href="https://leetcode.com/rushi_mungse/"
                             target="_blank"
                             className="text-sm bg-secondary px-2 py-1 mt-2 text-white"
                         >
                             View Profile
                         </a>
                     </div>
-                    <div className="text-gray-700 w-full mb-4 px-4 py-4 h-[150px] flex flex-col items-center justify-center  bg-gradient-to-l from-dribbble to-twitter ">
+                    <div className="text-gray-700 w-full mb-4 px-4 py-4 h-[150px] flex flex-col items-center justify-center  bg-gradient-to-l from-success to-secondary ">
                         <h1 className="text-black tracking-wide font-500">
                             {" "}
                             CodeChef{" "}
                         </h1>
                         <p className="text-secondary">Contest Rating : 1617+</p>
                         <a
-                            href="https://drive.google.com/file/d/1HLzyqg3H410w9xbr27RWW1SQ6rMWjrS6/view?usp=drivesdk"
+                            href="https://www.codechef.com/users/rushi_mungse"
                             target="_blank"
                             className="text-sm bg-secondary px-2 py-1 mt-2 text-white"
                         >
@@ -114,7 +130,7 @@ const Certificates = () => {
                         </h1>
                         <p className="text-secondary">Contest Rating : 900+</p>
                         <a
-                            href="https://drive.google.com/file/d/1HLzyqg3H410w9xbr27RWW1SQ6rMWjrS6/view?usp=drivesdk"
+                            href="https://codeforces.com/profile/rushi_mungse"
                             target="_blank"
                             className="text-sm bg-secondary px-2 py-1 mt-2 text-white"
                         >
