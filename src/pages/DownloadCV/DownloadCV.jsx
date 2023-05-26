@@ -26,6 +26,14 @@ const DownloadCV = () => {
                     Download CV
                 </a>
             </div>
+            <div className="flex items-center justify-center mt-10">
+                <img
+                    src="https://i.ibb.co/tbcRXG8/8083037-removebg-preview.png"
+                    alt="8083037-removebg-preview"
+                    border="0"
+                    className="inline-block w-[80%]"
+                />
+            </div>
         </div>
     );
 };

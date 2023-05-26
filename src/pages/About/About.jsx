@@ -59,5 +59,4 @@ const About = () => {
         </div>
     );
 };
-// bg-[#7DC8D2]
 export default About;

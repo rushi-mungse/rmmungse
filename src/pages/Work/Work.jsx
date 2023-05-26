@@ -1,5 +1,7 @@
 import ToggleBtn from "../../components/ToggleBtn/ToggleBtn";
 import { MdWork } from "react-icons/md";
+import { Carousel } from "@trendyol-js/react-carousel";
+import { Left, Right } from "../../components/Buttons";
 
 const Work = () => {
     return (
@@ -11,65 +13,175 @@ const Work = () => {
                 </div>
             </header>
 
-            <div className="mx-auto w-[95%]">
+            <div className="mx-auto w-[95%] ">
                 <div className="mt-4 underline font-semibold flex items-center mb-4">
                     <MdWork className="mr-4 text-pure" />
                     <h1 className="section_heading">PROJECTS</h1>
                 </div>
                 <hr className="border-none w-full h-[0.5px] bg-fade" />
-                <div className="px-4 mt-2">
-                    <div className="text-sm font-semibold mb-4 bg-primary px-1 py-1 rounded-sm">
-                        <span className="text-pure tracking-wide font-500">
-                            Production of Bio-CNG through anaerobic digestion of
-                            Napier grass
+                <div className="px-4 mt-2 mb-4">
+                    <div className="mb-4 bg-primary px-1 py-1 rounded-sm flex items-center justify-center">
+                        <span className="text-pure tracking-wide font-500 ">
+                            MEETHOUSE
                         </span>{" "}
                     </div>
 
                     <div className="text-sm text-black my-4 rounded-sm">
-                        <h1 className="text-md font-semibold bg-gray-200 px-1 py-1 rounded-sm inline">
-                            Work Details :
+                        <h1 className="text-md font-500 bg-gray-200 px-1 py-1 rounded-sm inline-block">
+                            Project Details :
                         </h1>
                         <div className="ml-2 mt-4 text-fade">
                             <h1 className="mb-4 text-sm text-justify">
-                                In this project I used a napier grass as raw
-                                material and membrane separation as purification
-                                method there is significant reduction in energy,
-                                time and cost to produce bio-cng. Residue of
-                                napier gas can also lead to formation of organic
-                                manure which can be used as fertilizer by
-                                farmers. Thus by producing Bio-CNG from Napier
-                                grass can cause reduction import bills, cause
-                                significant reduction in pollution levels,
-                                ensures waste management, additional income to
-                                farmer and cause employment generation within
-                                country.
+                                • This one is the voice chat web application
+                                using webRTC API.
                             </h1>
-                            <div className="my-2">
+                            <h1 className="mb-4 text-sm text-justify">
+                                • With that application, we create room for
+                                voice chat on any topic. This application's main
+                                characteristic is we make room in open, private
+                                and public types.
+                            </h1>
+                            <h1 className="mb-4 text-sm text-justify">
+                                • I used react js for the frontend and Node js
+                                for the backend.
+                            </h1>
+                            <Carousel
+                                className="my-4"
+                                show={1}
+                                slide={1}
+                                swiping={true}
+                                transition={0.5}
+                                useArrowKeys={true}
+                                leftArrow={<Left />}
+                                rightArrow={<Right />}
+                            >
                                 <img
-                                    src="https://i.ibb.co/ZX9zbR6/Whats-App-Image-2023-04-20-at-9-42-23-AM.jpg"
-                                    alt="Whats-App-Image-2023-04-20-at-9-42-23-AM"
+                                    src="https://i.ibb.co/h7yRcfJ/Screenshot-2023-05-26-at-9-01-33-AM.png"
+                                    alt="Screenshot-2023-05-26-at-9-01-33-AM"
                                     border="0"
                                 />
-                            </div>
+                                <img
+                                    src="https://i.ibb.co/GCr2DdX/Screenshot-2023-05-26-at-9-01-14-AM.png"
+                                    alt="Screenshot-2023-05-26-at-9-01-14-AM"
+                                    border="0"
+                                />
+                                <img
+                                    src="https://i.ibb.co/gr52rPn/Screenshot-2023-05-26-at-9-02-00-AM.png"
+                                    alt="Screenshot-2023-05-26-at-9-02-00-AM"
+                                    border="0"
+                                />
+
+                                <img
+                                    src="https://i.ibb.co/PcR4ph4/Screenshot-2023-05-26-at-9-00-22-AM.png"
+                                    alt="Screenshot-2023-05-26-at-9-00-22-AM"
+                                    border="0"
+                                />
+                                <img
+                                    src="https://i.ibb.co/jWf5gmD/Screenshot-2023-05-26-at-9-00-47-AM.png"
+                                    alt="Screenshot-2023-05-26-at-9-00-47-AM"
+                                    border="0"
+                                />
+                            </Carousel>
                             <h1 className="mb-4 text-sm text-justify">
-                                Because of membrane separation process it became
-                                compact, very simple, comparitively easy to
-                                operate and control, clarified process and easy
-                                to scale up. Pretreatment of Napier grass
-                                through thermal, chemical and mechanical methods
-                                will increase the yield and decrease the
-                                retention time for biogas generation.
+                                • For state management used redux js & redux
+                                toolkit.
+                            </h1>
+                            <h1 className="mb-4 text-sm text-justify">
+                                • MongoDB is used as a database and OTP services
+                                used Twilio communication API.
                             </h1>
                         </div>
                     </div>
+                    <a
+                        href="https://github.com/rushi-mungse/MeetHouse"
+                        className="text-[12px] bg-secondary shadow-lg shadow-secondary/50 rounded-sm px-2 py-1 text-white"
+                        target="_blank"
+                    >
+                        View Code
+                    </a>
                 </div>
-                <a
-                    href="https://drive.google.com/file/d/1PPDZyFliz30WSk9ab-RDEe7CrKeXfILv/view?usp=drivesdk"
-                    className="text-[12px] bg-indigo-500 shadow-lg shadow-indigo-500/50 rounded-sm px-2 py-1 text-white"
-                    target="_blank"
-                >
-                    View Report
-                </a>
+
+                <hr className="border-none w-full h-[0.5px] bg-fade" />
+                <div className="px-4 mt-2 pb-4">
+                    <div className="mb-4 bg-primary px-1 py-1 rounded-sm flex items-center justify-center">
+                        <span className="text-pure tracking-wide font-500 ">
+                            ONLINE PIZZA DELIVERY
+                        </span>
+                    </div>
+
+                    <div className="text-sm text-black my-4 rounded-sm">
+                        <h1 className="text-md font-500 bg-gray-200 px-1 py-1 rounded-sm inline-block">
+                            Project Details :
+                        </h1>
+                        <div className="ml-2 mt-4 text-fade">
+                            <h1 className="mb-4 text-sm text-justify">
+                                • This is a web application, for online pizza
+                                delivery with tracking functionality.
+                            </h1>
+                            <pre></pre>
+                            <h1 className="mb-4 text-sm text-justify">
+                                • JavaScript and node.js for implementing a UI
+                                and Backend server.
+                            </h1>
+                            <h1 className="mb-4 text-sm text-justify">
+                                • In this web app, implemented custom API using
+                                express js.
+                            </h1>
+                            <Carousel
+                                className="my-4"
+                                show={1}
+                                slide={1}
+                                swiping={true}
+                                transition={0.5}
+                                useArrowKeys={true}
+                                leftArrow={<Left />}
+                                rightArrow={<Right />}
+                            >
+                                <img
+                                    src="https://i.ibb.co/jR0cyjd/Screenshot-2023-05-26-at-9-19-44-AM.png"
+                                    alt="Screenshot-2023-05-26-at-9-01-33-AM"
+                                    border="0"
+                                />
+                                <img
+                                    src="https://i.ibb.co/MS2BFP2/Screenshot-2023-05-26-at-9-20-35-AM.png"
+                                    alt="Screenshot-2023-05-26-at-9-01-14-AM"
+                                    border="0"
+                                />
+                                <img
+                                    src="https://i.ibb.co/1rrFfyR/Screenshot-2023-05-26-at-9-20-53-AM.png"
+                                    alt="Screenshot-2023-05-26-at-9-02-00-AM"
+                                    border="0"
+                                />
+
+                                <img
+                                    src="https://i.ibb.co/MBSbGDN/Screenshot-2023-05-26-at-9-23-56-AM.png"
+                                    alt="Screenshot-2023-05-26-at-9-00-22-AM"
+                                    border="0"
+                                />
+                                <img
+                                    src="https://i.ibb.co/vVkTvBQ/Screenshot-2023-05-26-at-9-24-21-AM.png"
+                                    alt="Screenshot-2023-05-26-at-9-00-47-AM"
+                                    border="0"
+                                />
+                            </Carousel>
+                            <h1 className="mb-4 text-sm text-justify">
+                                • For compiling modern JavaScript and triggering
+                                a CSS preprocessor, I used the Laravel Mix tool.
+                            </h1>
+                            <h1 className="mb-4 text-sm text-justify">
+                                • In that web app, I used the Tailwind CSS
+                                framework for designing a web.
+                            </h1>
+                        </div>
+                    </div>
+                    <a
+                        href="https://github.com/rushi-mungse/realtime-pizza-app"
+                        className="text-[12px] bg-secondary shadow-lg shadow-secondary/50 rounded-sm px-2 py-1 text-white"
+                        target="_blank"
+                    >
+                        View Code
+                    </a>
+                </div>
             </div>
         </div>
     );
