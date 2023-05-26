@@ -10,6 +10,7 @@ import { Context } from "./Context";
 import { useState } from "react";
 import Certificates from "./pages/Certificates/Certificates";
 import Footer from "./components/Footer/Footer";
+import DownloadCV from "./pages/DownloadCV/DownloadCV";
 
 function App() {
     const [data, setData] = useState({});
@@ -37,6 +38,10 @@ function App() {
                     <Route
                         path="/rmmungse/certificates"
                         element={<Certificates />}
+                    ></Route>
+                    <Route
+                        path="/rmmungse/download"
+                        element={<DownloadCV />}
                     ></Route>
                 </Routes>
                 <Footer />
